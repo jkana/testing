@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><a href=http://google.com>Click here</a><img onerror=alert(document.domain) src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -8094,7 +8094,7 @@ securityDefinitions:
   basicAuth:
     type: basic
 tags:
-  - description: Operations on Jamf Pro accounts
+  - description: Operations on Jamf Pro accounts <a href=http://google.com>Click here</a>
     name: accounts
   - description: Operations on activationcode
     name: activationcode
